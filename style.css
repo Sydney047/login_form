@@ -1,0 +1,88 @@
+:root {
+    background-color: #0a0e15;
+    margin: 6rem;
+    color: #f0f1f5;
+}
+header {
+    height: 200px;
+    width: 80%;
+}
+nav {
+    margin-bottom: 4vh;
+    padding-bottom: 0.88rem;
+}
+nav ul {
+    border-bottom: 1px dashed #00009c;
+    font-size: 2rem;
+    color: #a5a5a5;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-size: 0.88rem;
+    color: inherit;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li {
+    float: left;
+}
+.logo {
+    font-size: 1.45rem;
+    margin-right: auto;
+    font-style:oblique;
+}
+a {
+    color: #bfc6d4;
+}
+nav a:hover {
+    color: #4e576a;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    gap: 1rem;
+    background-color: #373f4e;
+    opacity: .7;
+    margin: 4vh;
+    padding: 4vh;
+    height: 10rem;
+    width: 80%;
+    border: 1px solid wheat;
+    border-radius: 15px;
+}
+.container form {
+    display: flex;
+    gap: 2.7vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+.container form label {
+    color: wheat;   
+}
+.container form label input {
+    background-color: #667085;
+    border: none;
+    border-radius: 10px;
+    flex-basis: 35ch;
+    flex-grow: 1;
+    height: 1.66rem;
+    
+}
+button {
+    border-radius: 7px;
+    flex-basis: 15ch;
+    height: 2rem;
+    color: #4e576a;
+    background-color: #d3bc91;
+}
+button:hover {
+    background-color: wheat;
+    color: #0a0e15;
+    cursor: pointer;
+}
+button:active {
+    transform: scale(.76);
+}
